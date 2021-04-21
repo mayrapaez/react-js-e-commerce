@@ -1,0 +1,207 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+/* ESTILOS NAVBAR */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0px 5px;
+    font-size: 20px;
+}
+#brand {
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px 0px;
+}
+#menuDerecha {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 10px 0px;
+}
+.categorias {
+    margin-left: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blueviolet;
+}
+#cartWidget {
+    display: flex;
+    align-items: center;
+}
+
+/* ESTILOS ITEMLIST */
+#itemList {
+    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+/* ESTILOS ITEM */
+.item {
+    margin-right: 19px;
+}
+.itemP {
+    margin: 10px 0px;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 28px;
+}
+.itemPa {
+   font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+}
+/* ESTILOS ITEMDETAIL */
+#itemDetail {
+    margin-left: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+#itemDetail h4 {
+    margin: 0px 0px 10px 0px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 35px;
+}
+#itemDetail p {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.detalle {
+    background-color: rgb(159, 161, 185);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 122px;
+    margin-right: 25px;
+}
+/* ESTILOS ITEMCOUNT */
+#itemCount {
+    margin-left: 632px;
+    text-align: center;
+}
+#seleccionCant {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 112px;
+}
+#seleccionCant p {
+    margin: 0;
+}
+#agregar {
+    margin-right: 599px;
+    margin-top: 18px;
+    background-color: rgb(159, 161, 185);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 122px;
+}
+
+/* ESTILOS CART  */
+.cart {
+    padding: 15px;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    
+}
+.cart p {
+    margin-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+}
+.cart button {
+    background-color: rgb(159, 161, 185);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.productoCart {
+    display: inline-block;
+    justify-content: center;
+
+    
+}
+.productoCart h4 {
+    /* margin: 0px 0px 10px 0px */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.productoCart p {
+    margin-top: 5px;
+}
+.productoCart button {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: rgb(159, 161, 185);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 19px;
+    width: 102px;
+}
+
+/* ESTILOS CHECKOUT */
+.checkout {
+    padding: 15px;
+    margin-left: 35px;
+    padding-top: 55px;
+    
+}
+.checkout p {
+    margin-bottom: 10px;
+}
+.formItem {
+    margin-bottom: 10px;
+    width: 200px;
+}
+.formItem input {
+    box-sizing: border-box;
+    width: 100%;
+}
+.buton {
+    background-color: rgb(159, 161, 185);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font: size 22px;
+    width: 102px;
+}
+
+/* ESTILOS ORDEN */
+.orden {
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(159, 161, 185);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
